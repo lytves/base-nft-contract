@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Deploying a Smart Contract on Coinbase Layer-2 blockchain BASE
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+[Official BASE documentation related](https://docs.base.org/guides/deploy-smart-contracts)
 
-Try running some of the following tasks:
+This section will guide you through deploying an NFT smart contract (ERC-721) to the Base network using Hardhat.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+Hardhat is a developer tool that provides a simple way to deploy, test, and debug smart contracts.
+
+---
+
+The code above uses dotenv to load the **WALLET_KEY** environment variable from a **.env** file to process.env.WALLET_KEY. You should use a similar method to avoid hardcoding your private keys within your source code.
+And is used Blockscout API key you should add to your .env file BLOCKSCOUT_KEY
