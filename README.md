@@ -8,5 +8,5 @@ Hardhat is a developer tool that provides a simple way to deploy, test, and debu
 
 ---
 
-The code above uses dotenv to load the **WALLET_KEY** environment variable from a **.env** file to process.env.WALLET_KEY. You should use a similar method to avoid hardcoding your private keys within your source code.
+The project is uses [dotenv](https://github.com/motdotla/dotenv) to load the **WALLET_KEY** environment variable from a **.env** file to process.env.WALLET_KEY. You should use a similar method to avoid hardcoding your private keys within your source code.
 And is used Blockscout API key you should add the **BLOCKSCOUT_KEY** environment variable to your .env file.
